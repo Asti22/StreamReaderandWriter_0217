@@ -8,6 +8,8 @@ int main(){
     cout <<"Awal program "<<endl; //penanda 1
     try {
         array <int, 3> data = {3, 5, 7};
-        //pesan array integer 3 elemen
+        //pesan array integer 3 element
+        cout << data.at(5)<<endl;
+        //memanggil arrray element ke 5
     }
 }
